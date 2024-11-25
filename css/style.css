@@ -3,7 +3,7 @@ body {
 }
 .hero-section {
     height: 60vh;
-    background: url('images/Food\ Hero.jpg') center center/cover no-repeat;
+    background: url('images/image.jpg') center center/cover no-repeat;
     color: white;
     display: flex;
     justify-content: center;
