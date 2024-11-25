@@ -3,9 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nathan's Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .hero-section {
+            height: 60vh;
+            background: url('images/Food\ Hero.jpg') center center/cover no-repeat;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-text {
+            background: rgba(0, 0, 0, .7);
+            padding: 20px;
+        }
+        .content-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .culture-title {
+            margin-top: 40px;
+            font-weight: 600;
+        }
+    </style>
 </head>
 <body>
 
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Romania</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#index.html">Romania</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Food.html">Food</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#History.html">History</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Music.html">Music</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="hero-text">
+        <h1>Explore Romania's foods</h1>
+        <p>Join us on a journey to experience fascinating foods with romanian cuisine.</p>
+    </div>
+</div>
+
+<!-- Content Section -->
+<div class="container content-section">
+    <!-- Food 1: Mamaliga -->
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <img src="images/Mamaliga.jpg" alt="Mămăligă" class="img-fluid">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2 class="culture-title">1. Mămăligă</h2>
+                <p>
+                    Mămăligă is a classic Romanian dish made from cornmeal, similar to polenta. 
+                    Simple yet versatile, it's cooked to a creamy consistency and often served as 
+                    a side to stews, grilled meats, or cheese. Traditionally paired with sour 
+                    cream and brined cheese, mămăligă is a comforting staple in Romanian cuisine.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Food 2: Mici -->
+    <div class="row mt-5">
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2 class="culture-title">2. Mici</h2>
+                <p>
+                    Mici are a type of grilled sausage made from a mix of beef, lamb, and pork, 
+                    seasoned with garlic, thyme, and other spices. These skinless sausages are 
+                    a favorite at barbecues and are traditionally served with mustard and bread.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="images/Mici.jpg" alt="Mici" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Food 1: Sarmale -->
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <img src="images/Sarmale.jpg" alt="Sarmale" class="img-fluid">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2 class="culture-title">3. Sarmale</h2>
+                <p>
+                    Sarmale are cabbage rolls stuffed with a mix of minced meat (usually pork) 
+                    and rice, seasoned with herbs. These rolls are cooked slowly in a tomato 
+                    sauce and are a popular dish for holidays and celebrations.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Food 4: Cozonac -->
+    <div class="row mt-5">
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2 class="culture-title">4. Cozonac</h2>
+                <p>
+                    Cozonac is a traditional Romanian sweet bread, typically made for holidays 
+                    like Christmas and Easter. It is filled with ingredients such as walnuts, 
+                    cocoa, or Turkish delight, giving it a rich and festive flavor.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="images/Cozonac.jpg" alt="Cozonac" class="img-fluid mb-3">
+        </div>
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+message.txt
+6 KB
