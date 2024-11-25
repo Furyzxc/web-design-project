@@ -1,0 +1,24 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.hero-section {
+    height: 60vh;
+    background: url('images/Food\ Hero.jpg') center center/cover no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-text {
+    background: rgba(0, 0, 0, .7);
+    padding: 20px;
+}
+.content-section img {
+    max-width: 100%;
+    height: auto;
+}
+.culture-title {
+    margin-top: 40px;
+    font-weight: 600;
+}
