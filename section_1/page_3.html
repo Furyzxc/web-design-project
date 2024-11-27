@@ -4,17 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ukrainian History</title>
-    <link rel="stylesheet" href="../css/style.css">     
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./page_1.html">Food</a>
-        <a href="./page_2.html">Festivals</a>
-        <a href="./page_3.html">History</a>
-        <a href="./page_4.html">Music</a>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">Cultural Highlights</a>
+
+        <!-- Navbar Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Ukraine</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./index.html">General</a></li>
+                        <li><a class="dropdown-item" href="./page_1.html">Food</a></li>
+                        <li><a class="dropdown-item" href="./page_2.html">Festivals</a></li>
+                        <li><a class="dropdown-item active" href="./page_3.html">History</a></li>
+                        <li><a class="dropdown-item" href="./page_4.html">Music</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../section_2/index.html">Ireland</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../section_2/index.html">China</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../section_4/index.html">India</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../section_5/index.html">Romania</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <!-- Header -->
     <header>
@@ -27,7 +63,7 @@
         <!-- Event 1 -->
         <div class="event">
             <h2>Kyivan Rus (9th–13th Century)</h2>
-            <img src="kyivan-rus.jpg" alt="Kyivan Rus">
+            <img src="./images/history/kyivan-rus.jfif" alt="Kyivan Rus">
             <p>
                 Kyivan Rus was a powerful medieval state centered around Kyiv. It was a cultural and political hub, influencing much of Eastern Europe. During this period, the region adopted Christianity in 988, a moment that profoundly shaped Ukrainian culture, religion, and identity.
             </p>
@@ -36,7 +72,7 @@
         <!-- Event 2 -->
         <div class="event">
             <h2>Cossack Hetmanate (17th–18th Century)</h2>
-            <img src="cossack-hetmanate.jpg" alt="Cossack Hetmanate">
+            <img src="./images/history/cossack.png" alt="Cossack Hetmanate">
             <p>
                 The Cossack Hetmanate was an autonomous state established by the Ukrainian Cossacks. It became a symbol of Ukrainian resistance and self-governance. Led by figures like Bohdan Khmelnytsky, it played a key role in shaping national identity and resisting foreign domination.
             </p>
@@ -45,7 +81,7 @@
         <!-- Event 3 -->
         <div class="event">
             <h2>Soviet Ukraine (1922–1991)</h2>
-            <img src="soviet-ukraine.jpg" alt="Soviet Ukraine">
+            <img src="./images/history/soviet.png" alt="Soviet Ukraine">
             <p>
                 Under Soviet rule, Ukraine faced significant challenges, including the Holodomor famine (1932–1933), which claimed millions of lives. Despite repression, Ukrainians preserved their cultural and linguistic heritage. Soviet Ukraine also became a key industrial and scientific center within the USSR.
             </p>
@@ -54,7 +90,7 @@
         <!-- Event 4 -->
         <div class="event">
             <h2>Independence (1991–Present)</h2>
-            <img src="ukraine-independence.jpg" alt="Ukraine Independence">
+            <img src="./images/history/independence.png" alt="Ukraine Independence">
             <p>
                 On August 24, 1991, Ukraine declared independence, marking the end of Soviet rule. Since then, the country has faced political and economic transformations, as well as significant challenges, including conflicts and movements for reform. Ukraine's vibrant culture and resilience continue to inspire the world.
             </p>
@@ -67,9 +103,10 @@
             <p>&copy; 2024 Cultural Highlights. All Rights Reserved.</p>
             <div class="footer-links">
                 <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="../contact.html">Contact</a>
             </div>
         </div>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
