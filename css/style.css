@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -11,8 +14,15 @@ body {
 header {
     background-color: #004d99;
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2rem;
 }
 
 /* Content Section */
@@ -69,56 +79,23 @@ footer p {
     color: #4CAF50;
 }
 
-.festival {
+.festival, .event, .genre {
     margin-bottom: 40px;
 }
-.festival h2 {
+.festival h2, .event h2, .genre h2 {
     color: #004d99;
     margin-bottom: 10px;
 }
-.festival img {
+.festival img, .event img, .genre img {
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
 }
-.festival p {
+.festival p, .event p, .genre p {
     text-align: justify;
     color: #555;
 }
 
-.event {
-    margin-bottom: 40px;
-}
-.event h2 {
-    color: #004d99;
-    margin-bottom: 10px;
-}
-.event img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.event p {
-    text-align: justify;
-    color: #555;
-}
-
-.genre {
-    margin-bottom: 40px;
-}
-.genre h2 {
-    color: #004d99;
-    margin-bottom: 10px;
-}
-.genre img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.genre p {
-    text-align: justify;
-    color: #555;
-}
 
 /* Navbar Section */
 .navbar {
@@ -149,115 +126,125 @@ footer p {
     transition: 200ms;
     background-color: #666; /* Optional: adds hover effect for dropdown items */
 }
-  
 
-
-
-/* Header Section */
-header {
-    background-color: #004d99;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-header p {
-    font-size: 1.2rem;
-}
 
 /* Team Section */
 .team {
     padding: 40px 20px;
-    background-color: #ffffff;
+    background-color: #fff;
     text-align: center;
 }
+
 .team h2 {
-    color: #004d99;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
+
 .team-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
 }
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.china {
+    background-repeat: no-repeat;
+    background-color: #EE1C25;
+}
+
 .team-member {
-    padding: 20px;
-    width: calc(33% - 40px);
+    padding-top: 30px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.team-memberbg1{
-    background-image: url(../images/UkraineFlag.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+    overflow: hidden;
 }
 
-.team-memberbg1 img {
+.team-member::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay (adjust opacity as needed) */
+    z-index: 1;
+}
+
+.team-member * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Avatar (Icon) Styling */
+.team-icon {
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-}
-
-.team-memberbg2{
-    background-image: url(../images/RomanianFlag.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.team-memberbg2 img {
-    border-radius: 50%;
-}
-
-.team-memberbg3{
-    background-image: url(../images/IrelandFlag.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.team-memberbg3 img {
-    border-radius: 50%;
-}
-
-.team-memberbg4{
-    background-image: url(../images/ChinaFlag.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.team-memberbg4 img {
-    border-radius: 50%;
-}
-
-.team-memberbg5{
-    background-image: url(../images/IndiaFlag.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.team-memberbg5 img {
-    border-radius: 50%;
-}
-
-.
-.team-member div img {
-    max-width: 100px;
-    border-radius: 50%;
+    border: 3px solid white;
     margin-bottom: 15px;
 }
+
+/* Text Styling */
 .team-member h3 {
-    color: #004d99;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.team-member p {
+    font-size: 1rem;
+    margin: 5px 0;
 }
 
 /* Contact Form Section */
+.contact-form {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 250px;
+        height: 250px;
+    }
+
+    .team-member h3 {
+        font-size: 1.2rem;
+    }
+}
 .contact-form {
     background-color: #ffffff;
     padding: 40px 20px;
@@ -281,17 +268,17 @@ label {
     margin-bottom: 5px;
     display: block;
 }
-input, textarea {
+input, .textarea {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-textarea {
+.textarea {
     resize: vertical;
 }
-button {
+.submit-button {
     background-color: #004d99;
     color: white;
     border: none;
@@ -301,7 +288,7 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-button:hover {
+.submit-button:hover {
     background-color: #003366;
 }
 
@@ -310,91 +297,11 @@ button:hover {
     max-width: 160px;
 }
 
-/* Sidebar */
-#sidebar {
-    width: 250px;
-    min-height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1000;
-    background: #f8f9fa;
-    padding: 15px;
-    overflow-y: auto;
-    border-right: 1px solid #ddd;
-}
-
-.sidebar-header {
-    padding: 15px;
-    background: #28a745;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-#sidebar .components {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-
-#sidebar .components li {
-    margin: 10px 0;
-}
-
-#sidebar .components .nav-link {
-    padding: 10px;
-    color: #333;
-    border-radius: 5px;
-    transition: background 0.3s, color 0.3s;
-}
-
-#sidebar .components .nav-link:hover {
-    background: #28a745;
-    color: white;
-}
-
-/* Main Content */
-#content {
-    margin-left: 250px;
-    padding: 15px;
-}
-
-/* Header */
-.header {
-    padding: 30px 15px;
-    background: #28a745;
-    color: white;
-    border-radius: 10px;
-}
-
-/* Cards */
-.card {
-    border: none;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.card-title {
-    color: #28a745;
-}
-
 .card-body p {
     font-size: 0.9rem;
     color: #555;
 }
 
-/* Footer */
-.footer {
-    margin-top: 30px;
-    background: #343a40;
-    color: white;
-}
 
 .intro {
     max-width: 900px;
@@ -486,10 +393,4 @@ button:hover {
 
 .card-text {
     color: #555;
-}
-
-/* Footer */
-footer {
-    background: #343a40;
-    color: #fff;
 }

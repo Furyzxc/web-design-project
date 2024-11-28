@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9412c963-6135-44ff-be39-15faa9eb0d7c" name="Changes" comment="moved styles to global css file">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section_1/images/festivals/ivana-kupala.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section_1/images/food/borsh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section_1/images/music/choral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section_1/images/music/folk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section_1/images/music/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section_1/images/music/rock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nathan's section/Rom_Festivals.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nathan's section/Rom_Festivals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nathan's section/Rom_Food.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nathan's section/Rom_Food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nathan's section/Rom_History.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nathan's section/Rom_History.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nathan's section/Rom_Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nathan's section/Rom_Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nathan's section/Rom_Music.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nathan's section/Rom_Music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_4/page_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/page_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_4/page_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/page_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_4/page_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/page_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_4/page_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_4/page_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Furyzxc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Furyzxc/web-design-project.git&quot;,
+    &quot;accountId&quot;: &quot;154104ff-39ae-46d0-968e-716036db7237&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -42,12 +53,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/DCU/web-design/web-design-project/section_1/images/overview&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -82,6 +95,8 @@
       <workItem from="1732220353206" duration="226000" />
       <workItem from="1732705002109" duration="12154000" />
       <workItem from="1732730344406" duration="4730000" />
+      <workItem from="1732827269029" duration="3307000" />
+      <workItem from="1732830842392" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="compressed images of ukraine">
       <option name="closed" value="true" />
@@ -91,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732744804877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="moved styles to global css file">
+      <option name="closed" value="true" />
+      <created>1732827665762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732827665762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
