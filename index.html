@@ -3,86 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Cultures</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <style>
-    
-    </style>
+    <title>Cultures Around the World</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to World Cultures</h1>
-        <p>Discover the diverse cultures from around the globe</p>
-    </header>
-    <nav>
-        <a href="./section_1/index.html">Ukraine</a>
-        <a href="./section_2/index.html">Ireland</a>
-        <a href="./section_3/html/index.html">China</a>
-        <a href="./section_4/index.html">India</a>
-        <a href="./section_5/index.html">Romania</a>
-    </nav>
-    <div class="content">
-        <h2>Explore Different Cultures</h2>
-        <p>Our world is a tapestry of unique cultures, histories, and traditions. Each nation brings its own flavor to the global community, blending the past and present into a dynamic, colorful heritage.</p>
-        
-        <div class="section">
-            <h2>Why Explore Cultures?</h2>
-            <p>Cultural exploration broadens your understanding of humanity. By learning about different ways of life, you gain appreciation for diversity and develop a global perspective. From the vibrant festivals of India to the ancient heritage of China, every culture offers something new to learn and cherish.</p>
-        </div>
-        
-        <div class="section">
-            <h2>How This Website Helps</h2>
-            <p>This site serves as a gateway to exploring various cultures. Whether you're a traveler, a student, or simply curious, you’ll find a wealth of information about traditions, food, clothing, festivals, and more. Use this site to inspire your adventures or deepen your knowledge.</p>
-        </div>
-
-        <div class="countries">
-            <div class="country-card" id="ukraine">
-                <h3>Ukraine</h3>
-                <p>Rich traditions, beautiful landscapes, and hearty cuisine.</p>
-                <a href="./section_1/index.html">Learn More</a>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="bg-light">
+            <div class="sidebar-header text-center">
+                <h4>Explore Cultures</h4>
             </div>
-            <div class="country-card" id="romania">
-                <h3>Romania</h3>
-                <p>Castles, folklore, and breathtaking mountains.</p>
-                <a href="romania.html">Learn More</a>
-            </div>
-            <div class="country-card" id="ireland">
-                <h3>Ireland</h3>
-                <p>Green hills, Celtic culture, and vibrant festivals.</p>
-                <a href="ireland.html">Learn More</a>
-            </div>
-            <div class="country-card" id="china">
-                <h3>China</h3>
-                <p>Ancient history, modern marvels, and unique customs.</p>
-                <a href="china.html">Learn More</a>
-            </div>
-            <div class="country-card" id="india">
-                <h3>India</h3>
-                <p>Vibrant festivals, spiritual heritage, and colorful traditions.</p>
-                <a href="./section_5/index.html">Learn More</a>
-            </div>
-        </div>
-        
-        <div class="section">
-            <h2>Interesting Facts About Culture</h2>
-            <ul>
-                <li>Did you know that in Ukraine, pysanky (decorated eggs) are an ancient symbol of life and rebirth?</li>
-                <li>Romania is home to the famous Dracula legend, inspired by the historic figure Vlad the Impaler.</li>
-                <li>In Ireland, the harp is one of the country's oldest symbols, representing its rich musical tradition.</li>
-                <li>China’s Great Wall stretches over 13,000 miles and has been a symbol of protection for centuries.</li>
-                <li>India celebrates over 1,000 festivals each year, making it one of the most festive countries in the world.</li>
+            <ul class="list-unstyled components">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#ukraine" class="nav-link">Ukraine</a></li>
+                <li><a href="#ireland" class="nav-link">Ireland</a></li>
+                <li><a href="#romania" class="nav-link">Romania</a></li>
+                <li><a href="#china" class="nav-link">China</a></li>
+                <li><a href="#india" class="nav-link">India</a></li>
             </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div id="content" class="w-100">
+            <header class="header bg-primary text-white text-center py-3">
+                <h1>Cultures Around the World</h1>
+                <p>Discover the traditions, cuisines, and music of various countries.</p>
+            </header>
+
+            <!-- Featured Section -->
+            <section class="featured-section container my-5">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ukraine">
+                            <div class="card-body">
+                                <h5 class="card-title">A Taste of Ukraine</h5>
+                                <p class="card-text">Have you heard of borsh? Discover the flavors of Ukraine!</p>
+                                <a href="#ukraine" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ireland">
+                            <div class="card-body">
+                                <h5 class="card-title">The Charm of Ireland</h5>
+                                <p class="card-text">Explore the music and legends of Ireland's green lands.</p>
+                                <a href="#ireland" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer bg-dark text-white text-center py-3">
+                <p>© 2024 Cultures Website | All Rights Reserved</p>
+            </footer>
         </div>
     </div>
-    <footer>
-        <div class="footer-container">
-            <p>&copy; 2024 Cultural Highlights. All Rights Reserved.</p>
-            <div class="footer-links">
-                <a href="about.html">About</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-        </div>
-    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
