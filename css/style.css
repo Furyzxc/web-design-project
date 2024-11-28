@@ -120,6 +120,39 @@ footer p {
     color: #555;
 }
 
+/* Navbar Section */
+.navbar {
+    background-color: #555 !important; /* Changes navbar background color */
+}
+  
+.navbar .navbar-brand, 
+.navbar .nav-link, 
+.navbar .dropdown-item {
+    color: white !important; /* Changes text color to white */
+}
+  
+.navbar .nav-link:hover, 
+.navbar .dropdown-item:hover {
+    transition: 200ms;
+    color: #ddd; /* Optional: adds a hover effect with lighter text color */
+}
+  
+.navbar .dropdown-menu {
+    background-color: #444; /* Optional: changes dropdown menu background color */
+}
+  
+.navbar .dropdown-item {
+    color: white !important; /* Ensures dropdown items text is white */
+}
+  
+.navbar .dropdown-item:hover {
+    transition: 200ms;
+    background-color: #666; /* Optional: adds hover effect for dropdown items */
+}
+  
+
+
+
 /* Header Section */
 header {
     background-color: #004d99;
