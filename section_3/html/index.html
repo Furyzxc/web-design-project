@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Chinese Culture</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Intro Section */
+        .intro {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .intro h2 {
+            color: #004d99;
+            margin-bottom: 10px;
+        }
+        .intro p {
+            text-align: justify;
+            color: #555;
+        }
+
+        /* Sections */
+        .sections {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 20px auto;
+            gap: 20px;
+        }
+        .section {
+            flex: 1 1 calc(50% - 20px);
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .section h3 {
+            color: #004d99;
+            margin-top: 10px;
+        }
+        .section p {
+            color: #555;
+            text-align: justify;
+        }
+        .section a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #004d99;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .section a:hover {
+            background-color: #0066cc;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./food.html">Food</a>
+        <a href="./festivals.html">Festivals</a>
+        <a href="./history.html">History</a>
+        <a href="./music.html">Music</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the World of Chinese Culture</h1>
+        <p>Discover the timeless traditions, vibrant festivals, exquisite cuisine, and captivating arts that make China unique.</p>
+    </header>
+
+    <!-- Introduction Section -->
+    <div class="intro">
+        <h2>Welcome!</h2>
+        <p>
+            This page is a journey into the heart of Chinese culture. 
+            Whether you're intrigued by the flavors of its cuisine, the rhythm of its music, the vibrancy of its festivals, or the depth of its history, you'll find something to fascinate and inspire you. 
+            Explore and immerse yourself in the traditions and innovations that have shaped one of the world's oldest civilizations.
+        </p>
+    </div>
+
+    <!-- Sections -->
+    <div class="sections">
+        <!-- Food Section -->
+        <div class="section">
+            <img src="./images/dimsum.jpg" alt="Chinese Food">
+            <h3>Chinese Food</h3>
+            <p>
+                Explore the rich and diverse flavors of Chinese cuisine, from the spicy dishes of Sichuan to the cripsy peking duck of Beijing
+            </p>
+            <a href="./food.html">Learn More</a>
+        </div>
+
+        <!-- Festivals Section -->
+        <div class="section">
+            <img src="./images/spring-festival.jpg" alt="Chinese Festivals">
+            <h3>Festivals</h3>
+            <p>
+                Discover the celebrations that bring communities together, from the Lunar New Year to the Dagon Boat Festival
+            </p>
+            <a href="./festivals.html">Learn More</a>
+        </div>
+
+        <!-- History Section -->
+        <div class="section">
+            <img src="./images/history.jpg" alt="Chinese History">
+            <h3>Chinese History</h3>
+            <p>
+                Journey through thousands of years of history, from ancient dynasties to the modern era, and uncover China's rich heritage.
+            </p>
+            <a href="./history.html">Learn More</a>
+        </div>
+
+        <!-- Music Section -->
+        <div class="section">
+            <img src="./images/music.jpg" alt="Chinese Music">
+            <h3>Chinese Music</h3>
+            <p>
+                Experience the sounds of traditional Chinese instruments, opera, and the fusion of modern music styles.
+            </p>
+            <a href="./music.html">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Cultural Highlights. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
