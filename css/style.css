@@ -342,3 +342,63 @@ button:hover {
     background: #343a40;
     color: white;
 }
+
+.intro {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.intro h2 {
+    color: #004d99;
+    margin-bottom: 10px;
+}
+.intro p {
+    text-align: justify;
+    color: #555;
+}
+
+/* Sections */
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+}
+.section {
+    flex: 1 1 calc(50% - 20px);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.section h3 {
+    color: #004d99;
+    margin-top: 10px;
+}
+.section p {
+    color: #555;
+    text-align: justify;
+}
+.section a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #004d99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.section a:hover {
+    background-color: #0066cc;
+}
