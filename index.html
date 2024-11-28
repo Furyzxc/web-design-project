@@ -3,77 +3,375 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Cultures</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <style>
-    
-    </style>
+    <title>Explore Cultures</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to World Cultures</h1>
-        <p>Discover the diverse cultures from around the globe</p>
-    </header>
-    <nav>
-        <a href="./section_1/index.html">Ukraine</a>
-        <a href="./section_2/index.html">Ireland</a>
-        <a href="./section_3/html/index.html">China</a>
-        <a href="./section_4/index.html">India</a>
-        <a href="./section_5/index.html">Romania</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cultural Explorer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#cultures">Cultures</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="content">
-        <h2>Explore Different Cultures</h2>
-        <p>Our world is a tapestry of unique cultures, histories, and traditions. Each nation brings its own flavor to the global community, blending the past and present into a dynamic, colorful heritage.</p>
-        
-        <div class="section">
-            <h2>Why Explore Cultures?</h2>
-            <p>Cultural exploration broadens your understanding of humanity. By learning about different ways of life, you gain appreciation for diversity and develop a global perspective. From the vibrant festivals of India to the ancient heritage of China, every culture offers something new to learn and cherish.</p>
-        </div>
-        
-        <div class="section">
-            <h2>How This Website Helps</h2>
-            <p>This site serves as a gateway to exploring various cultures. Whether you're a traveler, a student, or simply curious, you’ll find a wealth of information about traditions, food, clothing, festivals, and more. Use this site to inspire your adventures or deepen your knowledge.</p>
-        </div>
 
-        <div class="countries">
-            <div class="country-card" id="ukraine">
-                <h3>Ukraine</h3>
-                <p>Rich traditions, beautiful landscapes, and hearty cuisine.</p>
-                <a href="./section_1/index.html">Learn More</a>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center text-white">
+            <h1>Welcome to Cultural Highlights</h1>
+            <p>Discover the traditions, cuisines, history, and music of cultures worldwide.</p>
+            <a href="#cultures" class="btn btn-primary">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Explore Cultures Section -->
+    <section id="cultures" class="my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Explore Different Cultures</h2>
+                <a href="#all-cultures" class="text-primary">View All Cultures &rarr;</a>
             </div>
-            <div class="country-card" id="romania">
-                <h3>Romania</h3>
-                <p>Castles, folklore, and breathtaking mountains.</p>
-                <a href="romania.html">Learn More</a>
+            <div class="row">
+                <!-- Ukraine -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ukraine">
+                        <div class="card-body">
+                            <h5 class="card-title">Ukraine</h5>
+                            <p class="card-text">Discover the rich history, hearty dishes like borsh, and vibrant festivals of Ukraine.</p>
+                            <a href="#ukraine" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ireland -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ireland">
+                        <div class="card-body">
+                            <h5 class="card-title">Ireland</h5>
+                            <p class="card-text">Explore the land of myths, Irish music, and breathtaking landscapes.</p>
+                            <a href="#ireland" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Romania -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Romania">
+                        <div class="card-body">
+                            <h5 class="card-title">Romania</h5>
+                            <p class="card-text">Dive into Romania’s folklore, traditional foods, and unique cultural heritage.</p>
+                            <a href="#romania" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="country-card" id="ireland">
-                <h3>Ireland</h3>
-                <p>Green hills, Celtic culture, and vibrant festivals.</p>
-                <a href="ireland.html">Learn More</a>
-            </div>
-            <div class="country-card" id="china">
-                <h3>China</h3>
-                <p>Ancient history, modern marvels, and unique customs.</p>
-                <a href="china.html">Learn More</a>
-            </div>
-            <div class="country-card" id="india">
-                <h3>India</h3>
-                <p>Vibrant festivals, spiritual heritage, and colorful traditions.</p>
-                <a href="./section_5/index.html">Learn More</a>
+            <div class="row">
+                <!-- China -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="China">
+                        <div class="card-body">
+                            <h5 class="card-title">China</h5>
+                            <p class="card-text">Uncover the wonders of China’s cuisine, ancient history, and iconic festivals.</p>
+                            <a href="#china" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- India -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="India">
+                        <div class="card-body">
+                            <h5 class="card-title">India</h5>
+                            <p class="card-text">Experience the colors, spices, and music of India’s rich culture.</p>
+                            <a href="#india" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <div class="section">
-            <h2>Interesting Facts About Culture</h2>
-            <ul>
-                <li>Did you know that in Ukraine, pysanky (decorated eggs) are an ancient symbol of life and rebirth?</li>
-                <li>Romania is home to the famous Dracula legend, inspired by the historic figure Vlad the Impaler.</li>
-                <li>In Ireland, the harp is one of the country's oldest symbols, representing its rich musical tradition.</li>
-                <li>China’s Great Wall stretches over 13,000 miles and has been a symbol of protection for centuries.</li>
-                <li>India celebrates over 1,000 festivals each year, making it one of the most festive countries in the world.</li>
-            </ul>
+    </section>
+
+    <section id="cultures" class="my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Learn about food</h2>
+                <a href="#all-cultures" class="text-primary">View All Cultures &rarr;</a>
+            </div>
+            <div class="row">
+                <!-- Ukraine -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ukraine">
+                        <div class="card-body">
+                            <h5 class="card-title">Ukraine</h5>
+                            <p class="card-text">Discover the rich history, hearty dishes like borsh, and vibrant festivals of Ukraine.</p>
+                            <a href="#ukraine" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ireland -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ireland">
+                        <div class="card-body">
+                            <h5 class="card-title">Ireland</h5>
+                            <p class="card-text">Explore the land of myths, Irish music, and breathtaking landscapes.</p>
+                            <a href="#ireland" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Romania -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Romania">
+                        <div class="card-body">
+                            <h5 class="card-title">Romania</h5>
+                            <p class="card-text">Dive into Romania’s folklore, traditional foods, and unique cultural heritage.</p>
+                            <a href="#romania" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- China -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="China">
+                        <div class="card-body">
+                            <h5 class="card-title">China</h5>
+                            <p class="card-text">Uncover the wonders of China’s cuisine, ancient history, and iconic festivals.</p>
+                            <a href="#china" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- India -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="India">
+                        <div class="card-body">
+                            <h5 class="card-title">India</h5>
+                            <p class="card-text">Experience the colors, spices, and music of India’s rich culture.</p>
+                            <a href="#india" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section id="cultures" class="my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Learn about festivals</h2>
+                <a href="#all-cultures" class="text-primary">View All Cultures &rarr;</a>
+            </div>
+            <div class="row">
+                <!-- Ukraine -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ukraine">
+                        <div class="card-body">
+                            <h5 class="card-title">Ukraine</h5>
+                            <p class="card-text">Discover the rich history, hearty dishes like borsh, and vibrant festivals of Ukraine.</p>
+                            <a href="#ukraine" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ireland -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ireland">
+                        <div class="card-body">
+                            <h5 class="card-title">Ireland</h5>
+                            <p class="card-text">Explore the land of myths, Irish music, and breathtaking landscapes.</p>
+                            <a href="#ireland" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Romania -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Romania">
+                        <div class="card-body">
+                            <h5 class="card-title">Romania</h5>
+                            <p class="card-text">Dive into Romania’s folklore, traditional foods, and unique cultural heritage.</p>
+                            <a href="#romania" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- China -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="China">
+                        <div class="card-body">
+                            <h5 class="card-title">China</h5>
+                            <p class="card-text">Uncover the wonders of China’s cuisine, ancient history, and iconic festivals.</p>
+                            <a href="#china" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- India -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="India">
+                        <div class="card-body">
+                            <h5 class="card-title">India</h5>
+                            <p class="card-text">Experience the colors, spices, and music of India’s rich culture.</p>
+                            <a href="#india" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cultures" class="my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Learn about history</h2>
+                <a href="#all-cultures" class="text-primary">View All Cultures &rarr;</a>
+            </div>
+            <div class="row">
+                <!-- Ukraine -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ukraine">
+                        <div class="card-body">
+                            <h5 class="card-title">Ukraine</h5>
+                            <p class="card-text">Discover the rich history, hearty dishes like borsh, and vibrant festivals of Ukraine.</p>
+                            <a href="#ukraine" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ireland -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ireland">
+                        <div class="card-body">
+                            <h5 class="card-title">Ireland</h5>
+                            <p class="card-text">Explore the land of myths, Irish music, and breathtaking landscapes.</p>
+                            <a href="#ireland" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Romania -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Romania">
+                        <div class="card-body">
+                            <h5 class="card-title">Romania</h5>
+                            <p class="card-text">Dive into Romania’s folklore, traditional foods, and unique cultural heritage.</p>
+                            <a href="#romania" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- China -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="China">
+                        <div class="card-body">
+                            <h5 class="card-title">China</h5>
+                            <p class="card-text">Uncover the wonders of China’s cuisine, ancient history, and iconic festivals.</p>
+                            <a href="#china" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- India -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="India">
+                        <div class="card-body">
+                            <h5 class="card-title">India</h5>
+                            <p class="card-text">Experience the colors, spices, and music of India’s rich culture.</p>
+                            <a href="#india" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cultures" class="my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Learn about music</h2>
+                <a href="#all-cultures" class="text-primary">View All Cultures &rarr;</a>
+            </div>
+            <div class="row">
+                <!-- Ukraine -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ukraine">
+                        <div class="card-body">
+                            <h5 class="card-title">Ukraine</h5>
+                            <p class="card-text">Discover the rich history, hearty dishes like borsh, and vibrant festivals of Ukraine.</p>
+                            <a href="#ukraine" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ireland -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Ireland">
+                        <div class="card-body">
+                            <h5 class="card-title">Ireland</h5>
+                            <p class="card-text">Explore the land of myths, Irish music, and breathtaking landscapes.</p>
+                            <a href="#ireland" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Romania -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Romania">
+                        <div class="card-body">
+                            <h5 class="card-title">Romania</h5>
+                            <p class="card-text">Dive into Romania’s folklore, traditional foods, and unique cultural heritage.</p>
+                            <a href="#romania" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- China -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="China">
+                        <div class="card-body">
+                            <h5 class="card-title">China</h5>
+                            <p class="card-text">Uncover the wonders of China’s cuisine, ancient history, and iconic festivals.</p>
+                            <a href="#china" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- India -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="India">
+                        <div class="card-body">
+                            <h5 class="card-title">India</h5>
+                            <p class="card-text">Experience the colors, spices, and music of India’s rich culture.</p>
+                            <a href="#india" class="btn btn-outline-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="footer-container">
             <p>&copy; 2024 Cultural Highlights. All Rights Reserved.</p>
@@ -83,6 +381,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
