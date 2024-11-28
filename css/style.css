@@ -185,15 +185,68 @@ header p {
     gap: 20px;
 }
 .team-member {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
     padding: 20px;
     width: calc(33% - 40px);
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.team-member img {
+.team-memberbg1{
+    background-image: url(../images/UkraineFlag.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.team-memberbg1 img {
+    border-radius: 50%;
+}
+
+.team-memberbg2{
+    background-image: url(../images/RomanianFlag.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.team-memberbg2 img {
+    border-radius: 50%;
+}
+
+.team-memberbg3{
+    background-image: url(../images/IrelandFlag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.team-memberbg3 img {
+    border-radius: 50%;
+}
+
+.team-memberbg4{
+    background-image: url(../images/ChinaFlag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.team-memberbg4 img {
+    border-radius: 50%;
+}
+
+.team-memberbg5{
+    background-image: url(../images/IndiaFlag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.team-memberbg5 img {
+    border-radius: 50%;
+}
+
+.
+.team-member div img {
     max-width: 100px;
     border-radius: 50%;
     margin-bottom: 15px;
