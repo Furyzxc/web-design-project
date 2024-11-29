@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9412c963-6135-44ff-be39-15faa9eb0d7c" name="Changes" comment="edited contact page and removed excessive css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    <list default="true" id="9412c963-6135-44ff-be39-15faa9eb0d7c" name="Changes" comment="small fix">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-design-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <workItem from="1732705002109" duration="12154000" />
       <workItem from="1732730344406" duration="4730000" />
       <workItem from="1732827269029" duration="3307000" />
-      <workItem from="1732830842392" duration="4669000" />
+      <workItem from="1732830842392" duration="10211000" />
     </task>
     <task id="LOCAL-00001" summary="compressed images of ukraine">
       <option name="closed" value="true" />
@@ -116,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732834926602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="small fix">
+      <option name="closed" value="true" />
+      <created>1732835678888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732835678888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="compressed images of ukraine" />
     <MESSAGE value="moved styles to global css file" />
     <MESSAGE value="edited contact page and removed excessive css" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited contact page and removed excessive css" />
+    <MESSAGE value="small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fix" />
   </component>
 </project>
