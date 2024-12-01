@@ -1,0 +1,42 @@
+.ukranian-header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ukranian-header::before {
+    background: rgba(0, 0, 0, 0.4);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.ukranian-header * {
+    position: relative;
+    z-index: 2;
+}
+
+.overview-header {
+    background-image: url("./images/overview/freedom.jpg");
+}
+
+.food-header {
+    background-image: url("./images/food/bg-image.png");
+}
+
+.festivals-header {
+    background-image: url("./images/festivals/bg-image.png");
+}
+
+.history-header {
+    background-image: url("./images/history/bg-image.png");
+}
+
+.music-header {
+    background-image: url("./images/music/bg-image.png");
+}
