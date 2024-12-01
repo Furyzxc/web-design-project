@@ -44,7 +44,7 @@
 
 /* Header Section */
 header {
-    background-color: #009A44;
+    background-image: url(images/header.png);
     color: white;
     padding: 20px;
     text-align: center;
