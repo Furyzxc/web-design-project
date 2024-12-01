@@ -26,7 +26,7 @@ header p {
 }
 
 #websiteBanner {
-    background-image: url(../images/);
+    background-image: url(../images/WebsiteBanner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
