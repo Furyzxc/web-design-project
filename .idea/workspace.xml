@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="edited ukraine page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/who-did-what.html" beforeDir="false" afterPath="$PROJECT_DIR$/who-did-what.html" afterDir="false" />
-    </list>
+    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated who did what page and added website logo to everyone page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733003623005</updated>
-      <workItem from="1733003628811" duration="5653000" />
+      <workItem from="1733003628811" duration="6107000" />
     </task>
     <task id="LOCAL-00003" summary="edited ukraine page">
       <option name="closed" value="true" />
@@ -124,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733086152221</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated who did what page and added website logo to everyone page">
+      <option name="closed" value="true" />
+      <created>1733088134064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733088134064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,7 @@
     <MESSAGE value="edited who-did-what.html" />
     <MESSAGE value="edited who-did-what.html (added footer)" />
     <MESSAGE value="edited ukraine page" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited ukraine page" />
+    <MESSAGE value="updated who did what page and added website logo to everyone page" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated who did what page and added website logo to everyone page" />
   </component>
 </project>
