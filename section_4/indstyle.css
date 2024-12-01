@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Overall Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: beige;
+    background: url("./images/bodybg.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+/* Header Section */
+header {
+    background: url('./images/modern-independence-day-tricolor-indian-flag-theme-texture-design_1035-28922.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 4rem 2rem;
+    border:  rgba(237, 205, 61, 0.518);
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-shadow: 1px 1px 1px black;
+}
+
+header h1 {
+    color: navy;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px navy;
+    font-size: 65px;
+    text-decoration: solid;
+}
+
+header p {
+    color: rgb(8, 8, 8);
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: larger;
+}
+#subhead{
+    background: url('./images/subheadbg.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+}
+#subhead h1{
+    margin-top: 40px;
+    color: #d70101;
+    text-shadow: 2px 2px 2px #0c0c0c;
+}
+/* Content Section */
+.content {
+    padding: 2rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background: beige;
+    border-radius: 10px;
+    border: 2px solid  rgb(255, 132, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+    max-width: 100%;
+    border: 2px solid rgb(255, 132, 0);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content h2 {
+    color: #0c0c0c;
+    margin: 1.5rem 0 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+.content p {
+    margin: 0.5rem 0 1.5rem;
+    font-size: large;
+}
+
+.content a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #ffab00;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.content a:hover {
+    background-color: #004d40;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343131;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-links {
+    margin-top: 0.5rem;
+}
+
+footer .footer-links a {
+    color: #faf9f8;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .footer-links a:hover {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    footer .footer-links {
+        flex-direction: column;
+    }
+}
