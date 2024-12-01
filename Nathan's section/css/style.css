@@ -33,19 +33,7 @@ header {
     padding: 15px 20px;
     text-align: center;
 }
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-}
-nav a {
-    text-decoration: none;
-    padding: 14px 20px;
-    display: block;
-}
-nav a:hover {
-    background-color: #575757;
-}
+
 .content {
     text-align: center;
     padding: 20px;
