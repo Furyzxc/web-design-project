@@ -25,6 +25,20 @@ header p {
     font-size: 1.2rem;
 }
 
+#websiteBanner {
+    background-image: url(../images/WebsiteBanner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bannerText {
+    background-color: #555;
+    border-radius: 15px;
+    padding: 2%;
+    opacity: 0.9;
+}
+
 /* Content Section */
 .content {
     max-width: 900px;
