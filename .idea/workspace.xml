@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated who did what page and added website logo to everyone page" />
+    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="moved nathans filed to section_5 folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/who-did-what.html" beforeDir="false" afterPath="$PROJECT_DIR$/who-did-what.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,22 +17,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Furyzxc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Furyzxc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Furyzxc/web-design-project.git",
-    "accountId": "154104ff-39ae-46d0-968e-716036db7237"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Furyzxc/web-design-project.git&quot;,
+    &quot;accountId&quot;: &quot;154104ff-39ae-46d0-968e-716036db7237&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2paUIxKyUr13lVTNAGg1OQuRYIi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,6 +42,7 @@
   "keyToString": {
     "JavaScript Debug.footer.html.executor": "Debug",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.who-did-what.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/User/DCU/web-design/web-design-project/images",
@@ -54,6 +59,19 @@
       <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\food" />
       <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\overview" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\DCU\web-design\web-design-project\section_5" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="who-did-what.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-design-project/who-did-what.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.who-did-what.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733003623005</updated>
       <workItem from="1733003628811" duration="6107000" />
+      <workItem from="1733090153977" duration="2037000" />
     </task>
     <task id="LOCAL-00003" summary="edited ukraine page">
       <option name="closed" value="true" />
@@ -128,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733088134064</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="moved nathans filed to section_5 folder">
+      <option name="closed" value="true" />
+      <created>1733091550057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733091550057</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +178,7 @@
     <MESSAGE value="edited who-did-what.html (added footer)" />
     <MESSAGE value="edited ukraine page" />
     <MESSAGE value="updated who did what page and added website logo to everyone page" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated who did what page and added website logo to everyone page" />
+    <MESSAGE value="moved nathans filed to section_5 folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved nathans filed to section_5 folder" />
   </component>
 </project>
