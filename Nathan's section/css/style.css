@@ -1,5 +1,6 @@
 .hero-section {
     height: 60vh;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,6 @@ nav {
     background-color: #333;
 }
 nav a {
-    color: white;
     text-decoration: none;
     padding: 14px 20px;
     display: block;
