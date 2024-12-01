@@ -1,4 +1,8 @@
 
+body {
+    color: #adffd1;
+}
+
 .Topics-Nav {
     list-style-type: none;
     margin-bottom: 2%;
@@ -27,6 +31,12 @@
     font-weight: bold;
 }
 
+.content {
+    border-color: #009A44;
+    border-style: solid;
+    border-width: 2px;
+}
+
 
 .content h2 {
     color: #009A44;
@@ -50,51 +60,10 @@ header {
     text-align: center;
 }
 
-/* 
-html {
-    scroll-behavior: smooth;
+#navbar img{
+    width: 50px;
+    height: 50px; /* Set height equal to width for a perfect circle */
+    border-radius: 25%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circle */
 }
-
-body {
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: lightgrey;
-}
-
-h1 {
-    margin-left: 2.5%;
-    font-family: sans-serif;
-}
-
-h2 {
-    margin-left: 5%;
-    font-family: sans-serif;
-}
-
-h3, h4 {
-    margin-left: 7.5%;
-    font-family: sans-serif;
-}
-
-p {
-    margin-left: 10%;
-    font-family: sans-serif;
-}
-
-li {
-    margin-left: 12.5%;
-}
-*/
-/* Navbar Styling */
-/* 
-.container-fluid {
-    background-color: #228B22;
-    margin-bottom: 2%;
-}
-
-.container-fluid a {
-    font-weight: bold;
-    color: white;
-}
-*/
 
