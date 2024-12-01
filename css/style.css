@@ -32,6 +32,11 @@ header p {
     background-repeat: no-repeat;
 }
 
+#bannerText {
+    background-color: #555;
+    border-radius: 2px;
+}
+
 /* Content Section */
 .content {
     max-width: 900px;
