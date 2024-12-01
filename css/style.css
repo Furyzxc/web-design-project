@@ -25,6 +25,13 @@ header p {
     font-size: 1.2rem;
 }
 
+#websiteBanner {
+    background-image: url(../images/);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Content Section */
 .content {
     max-width: 900px;
