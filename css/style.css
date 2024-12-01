@@ -136,6 +136,11 @@ footer p {
  
 }
 
+.nav-divider li {
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
 /* Team Section */
 .team {
     padding: 40px 20px;
