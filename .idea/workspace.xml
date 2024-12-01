@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="edited ukraine page">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section_1/images/festivals/bg-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section_1/images/food/bg-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section_1/images/history/bg-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section_1/images/music/bg-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section_1/images/overview/freedom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Furyzxc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Furyzxc/web-design-project.git",
+    "accountId": "154104ff-39ae-46d0-968e-716036db7237"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2paUIxKyUr13lVTNAGg1OQuRYIi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.footer.html.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/User/DCU/web-design/web-design-project/section_1/images/food",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\food" />
+      <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\overview" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="edited who-did-what.html">
+      <option name="closed" value="true" />
+      <created>1732993990261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732993990261</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edited who-did-what.html (added footer)">
+      <option name="closed" value="true" />
+      <created>1732994126146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732994126146</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="edited who-did-what.html (added footer)" />
+      <created>1733003623005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733003623005</updated>
+      <workItem from="1733003628811" duration="2406000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added who-did-what page" />
+    <MESSAGE value="edited who-did-what.html" />
+    <MESSAGE value="edited who-did-what.html (added footer)" />
+    <MESSAGE value="edited ukraine page" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited ukraine page" />
+  </component>
+</project>
