@@ -127,6 +127,14 @@ footer p {
     background-color: #666; /* Optional: adds hover effect for dropdown items */
 }
 
+.navbar img{
+
+    width: 50px;
+    height: 50px; /* Set height equal to width for a perfect circle */
+    border-radius: 25%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circle */
+ 
+}
 
 /* Team Section */
 .team {
