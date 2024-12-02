@@ -54,7 +54,7 @@
     background-color: #8b0000;
 }
 
-#ectionn a:hover{
+#sectionn a:hover{
     color: #8b0000;
 }
 
@@ -65,7 +65,7 @@
     height: auto;
 }
 
-#body{
+body{
     background: linear-gradient(to bottom, #FFF8DC, #FFFAF0); 
 }
 
