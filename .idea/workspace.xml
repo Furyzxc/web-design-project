@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated who-did-what.html and new header for references.html">
+    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated references.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/references.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/images/overview/ukraine-festivals.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/images/overview/ukraine-festivals.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.footer.html.executor": "Debug",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.who-did-what.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/DCU/web-design/web-design-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.footer.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.who-did-what.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/DCU/web-design/web-design-project/section_1/images/overview&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\overview" />
       <recent name="C:\Users\User\DCU\web-design\web-design-project" />
       <recent name="C:\Users\User\DCU\web-design\web-design-project\images" />
       <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\food" />
-      <recent name="C:\Users\User\DCU\web-design\web-design-project\section_1\images\overview" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\DCU\web-design\web-design-project\section_5" />
@@ -105,7 +106,9 @@
       <option name="presentableId" value="Default" />
       <updated>1733003623005</updated>
       <workItem from="1733003628811" duration="6107000" />
-      <workItem from="1733090153977" duration="6646000" />
+      <workItem from="1733090153977" duration="9114000" />
+      <workItem from="1733133031580" duration="2089000" />
+      <workItem from="1733135168406" duration="526000" />
     </task>
     <task id="LOCAL-00003" summary="edited ukraine page">
       <option name="closed" value="true" />
@@ -187,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733119528161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated references.html">
+      <option name="closed" value="true" />
+      <created>1733120216436</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733120216436</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +226,7 @@
     <MESSAGE value="added referenecs.html" />
     <MESSAGE value="updated referenecs.html" />
     <MESSAGE value="updated who-did-what.html and new header for references.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated who-did-what.html and new header for references.html" />
+    <MESSAGE value="updated references.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated references.html" />
   </component>
 </project>
