@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated references.html">
+    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated ukraine and who did what">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section_1/images/overview/ukraine-festivals.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/images/overview/ukraine-festivals.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section_1/page_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/section_1/page_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/who-did-what.html" beforeDir="false" afterPath="$PROJECT_DIR$/who-did-what.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +112,8 @@
       <workItem from="1733003628811" duration="6107000" />
       <workItem from="1733090153977" duration="9114000" />
       <workItem from="1733133031580" duration="2089000" />
-      <workItem from="1733135168406" duration="526000" />
+      <workItem from="1733135168406" duration="2859000" />
+      <workItem from="1733140825863" duration="841000" />
     </task>
     <task id="LOCAL-00003" summary="edited ukraine page">
       <option name="closed" value="true" />
@@ -198,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733120216436</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated ukraine">
+      <option name="closed" value="true" />
+      <created>1733135749635</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733135749635</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updated ukraine">
+      <option name="closed" value="true" />
+      <created>1733135759231</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733135759231</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +248,8 @@
     <MESSAGE value="updated referenecs.html" />
     <MESSAGE value="updated who-did-what.html and new header for references.html" />
     <MESSAGE value="updated references.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated references.html" />
+    <MESSAGE value="updated ukraine" />
+    <MESSAGE value="updated ukraine and who did what" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated ukraine and who did what" />
   </component>
 </project>
