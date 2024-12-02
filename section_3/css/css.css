@@ -83,6 +83,7 @@
 
 #content h2{
     color: #b22222;
+    font-weight: bold;
 }
 
 #content a{
@@ -103,39 +104,47 @@
 }
 
 .navbar {
-    background-color: #555 !important; /* Changes navbar background color */
+    background-color: #555 !important; 
 }
   
 .navbar .navbar-brand, 
 .navbar .nav-link, 
 .navbar .dropdown-item {
-    color: white !important; /* Changes text color to white */
+    color: white !important; 
 }
   
 .navbar .nav-link:hover, 
 .navbar .dropdown-item:hover {
     transition: 200ms;
-    color: #ddd; /* Optional: adds a hover effect with lighter text color */
+    color: #ddd; 
 }
   
 .navbar .dropdown-menu {
-    background-color: #444; /* Optional: changes dropdown menu background color */
+    background-color: #444;
 }
   
 .navbar .dropdown-item {
-    color: white !important; /* Ensures dropdown items text is white */
+    color: white !important;
 }
   
 .navbar .dropdown-item:hover {
     transition: 200ms;
-    background-color: #666; /* Optional: adds hover effect for dropdown items */
+    background-color: #666;
 }
 
 .navbar img{
 
     width: 50px;
-    height: 50px; /* Set height equal to width for a perfect circle */
-    border-radius: 25%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fills the circle */
+    height: 50px; 
+    border-radius: 25%;
+    object-fit: cover; 
  
+}
+
+#homeButton{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
 }
