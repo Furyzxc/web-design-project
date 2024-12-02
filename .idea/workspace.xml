@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="added referenecs.html">
+    <list default="true" id="fe0606f4-15ce-4c6f-aa78-c441ba0bc631" name="Changes" comment="updated referenecs.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/references.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/who-did-what.html" beforeDir="false" afterPath="$PROJECT_DIR$/who-did-what.html" afterDir="false" />
@@ -106,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733003623005</updated>
       <workItem from="1733003628811" duration="6107000" />
-      <workItem from="1733090153977" duration="4366000" />
+      <workItem from="1733090153977" duration="5974000" />
     </task>
     <task id="LOCAL-00003" summary="edited ukraine page">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733093287290</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated referenecs.html">
+      <option name="closed" value="true" />
+      <created>1733094954969</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733094954969</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +206,7 @@
     <MESSAGE value="moved nathans filed to section_5 folder" />
     <MESSAGE value="added mistakes section to who-did-what.html" />
     <MESSAGE value="added referenecs.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added referenecs.html" />
+    <MESSAGE value="updated referenecs.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated referenecs.html" />
   </component>
 </project>
