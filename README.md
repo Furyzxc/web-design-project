@@ -6,7 +6,7 @@ A cultural web platform covering the history and culture of five countries — U
 
 ## About
 
-This project explores the history, traditions, and culture of five countries through a responsive, multi-page website, built collaboratively by a team of 4 students.
+This project explores the history, traditions, and culture of five countries through a responsive, multi-page website, built collaboratively by a team of 5 students.
 
 ## Features
 
